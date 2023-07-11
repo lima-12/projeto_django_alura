@@ -1,0 +1,30 @@
+pip install virtualenv
+    -> instalando virtual env
+
+python get-pip.py
+-> baixar pip-> instalando python
+
+virtualenv venv 
+    -> criando virtual env
+
+venv/Scripts/Activate
+    -> ativando virtual env 
+    (deactivate para desativar)
+
+pip install django
+    -> instalando o django 
+
+pip freeze
+    -> vendo oq precisa para o projeto funcionar 
+
+pip freeze > requirements.txt
+    -> criando um txt com as exigencias do projeto (normalmente usado depois de um pip install)
+
+django-admin help
+    -> alguns comandos do django
+
+django-admin startproject setup .
+    -> estartando o projeto django
+
+python manage.py runserver
+    -> subindo servidor
